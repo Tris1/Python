@@ -2,7 +2,7 @@
 Created on Oct 30, 2013
 
 @author: Tristan
-Here is an example on how to use Splat arguments in Pyhton. Splat arguments tells python that you are
+Here is an example on how to use Splat arguments in Python. Splat arguments tell python that you are
 unsure of how many arguments will be passed into a function, but it will most likely be more than one.
 '''
 
