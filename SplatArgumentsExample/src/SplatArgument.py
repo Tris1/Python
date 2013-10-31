@@ -14,7 +14,7 @@ if sys.version_info[:2] <= (3, 0):
     python2 = True
     
 if python2 == True:
-    print ("Please download SplatArgumentV2.py to run on your system.")
+    print ("Please download SplatArgumentV2.py to run this program on your system.")
     sys.exit(2)
 
 """To use splat arguments, type a '*' before the input parameters, in this case, 'actors'.
