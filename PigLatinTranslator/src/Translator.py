@@ -4,6 +4,16 @@ Created on Oct 29, 2013
 @author: Tristan
 Simply translates user input into correct Pig Latin. Have fun
 '''
+#Check python version
+import sys
+python2 = False
+
+if sys.version_info[:2] <= (3, 0):
+    python2 = True
+    
+if python2 == True:
+    print ("Please download TranslatorV2.py to run this program on your system.")
+    sys.exit(2)
 
 pyg = 'ay'
 
